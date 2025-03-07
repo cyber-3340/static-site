@@ -1,0 +1,62 @@
+html{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+   padding: 0 20px;
+   font-weight: bold;
+   color: black;
+   transition: color 0.4s ease;
+}
+
+a:hover{
+   color: blue;
+}
+
+#divide {
+   border-left: 1px solid #a2a2a2;
+   border-right: 1px solid #a2a2a2;
+}
+
+.navigatsiya {
+   margin: 20px;
+   text-align: center;
+}
+
+main {
+   width: 60%;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+h1 {
+   border-top: 1px solid #a2a2a2;
+   margin-bottom: 20px;
+   padding-top: 20px;
+   font-size: 20px;
+}
+
+details {
+   background-color: aliceblue;
+   padding: 12px 16px;
+   margin: 10px 0;
+   transition: background-color 0.4s ease;
+}
+
+details:hover {
+   background-color: rgb(211, 222, 232);
+}
+
+summary {
+   cursor: pointer;
+   user-select: none;
+}
+
+.qalin {
+   font-weight: bold;
+}
